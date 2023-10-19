@@ -1,0 +1,129 @@
+/* Resetting default margin and padding for all elements */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body background and text color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    background-color: hsl(23, 100%, 50%);
+    color: #fff;
+    padding: 300px;
+    text-align: center;
+    display:flexbox;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+header img {
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header section {
+    background-color:hsl(23, 100%, 50%)
+}
+/* Style the navigation menu */
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: hsl(23, 100%, 50%);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+/* Style the main content sections */
+main {
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.container {
+    align-items: center;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container section {
+    align-items: center;
+}
+
+.article h2 {
+    color:hsl(23, 100%, 50%);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    align-items: center;
+}
+
+h5 {
+    color: white;
+    border-radius: 10px;
+}
+/* Style the footer */
+footer {
+    background-color:hsl(23, 100%, 50%);;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
